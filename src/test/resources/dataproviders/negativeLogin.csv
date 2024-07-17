@@ -1,0 +1,5 @@
+username,password,expectedMessage
+invalidUserName,admin123,Invalid credentials
+Admin,InvalidPassword,Invalid credentials
+invalidUserName,InvalidPassword,Invalid credentials
+ , ,Required

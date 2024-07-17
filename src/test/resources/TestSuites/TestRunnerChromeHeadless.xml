@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="ExampleTestRunnerChromeHeadless">
+    <test name="MyTestChromeHeadless">
+        <parameter name="browser" value="chromeheadless"/>
+        <classes>
+            <class name="com.datadiveTest.TestRun">
+                <methods>
+                    <include name="firstTryTestRunChromeHeadless"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

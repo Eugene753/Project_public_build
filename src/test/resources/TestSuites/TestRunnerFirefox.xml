@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="ExampleTestRunnerFirefox">
+    <test name="MyTestFirefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.datadiveTest.TestRun">
+                <methods>
+                    <include name="firstTryTestRunFirefox"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

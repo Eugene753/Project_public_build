@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="ExampleTestRunnerChrome">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="MyTestChrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.datadiveTest.TestCase1.LoginAndLandingPage">
+                <methods>
+                    <include name="SuccessLogin"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
